@@ -1,4 +1,6 @@
-Tutorial #1 = Menghubungkan Modem Ke Internet Menggunakan Sheel Pada tty atau Teletype
+Tutorial #1 = Menghubungkan Modem Ke Internet Menggunakan Sheel Pada Saat Instalasi Arch Linux
+
+Rata-rata tutorial di internet hanya membahas memakai wifi, nah sekarang saya akan membahas mengkoneksikan ke internet melalui modem usb.
 
 1. Secara default, installer arch linux telah terinclude software wvdial dan usb_modeswitch.
 
