@@ -1,0 +1,44 @@
+Tutorial #1 = Menghubungkan Modem Ke Internet Menggunakan Sheel Pada tty atau Teletype
+
+1. Secara default, installer arch linux telah terinclude software wvdial dan usb_modeswitch.
+
+2. Maka kita tidak perlu install manual menggunakan pacman -U melalui software repository offline seperti flashdisk atau hard disk external.
+
+3. Cek versi wvdial dan usb_modeswitch jika perlu.
+
+4. Generate wvdial config dengan cara.
+
+   # wvdialconf
+   
+5. Setelah kita generate maka kita harus edit konfigurasi default wvdial ke dalam opsel yang akan kita gunakan dengan cara.
+
+   # nano /etc/wvdial.conf
+  
+6. Outputnya akan terlihat seperti ini, nb. ini sudah saya konfigurasi.
+
+  [Dialer Defaults]
+  Init2 = ATQ0 V1 E1 S0=0
+  Modem Type = Analog Modem
+   Phone = *99#
+  ISDN = 0
+   Username = xlgprs.net
+  Init1 = ATZ
+   Password = xlgprs.net
+  Modem = /dev/ttyUSB0
+  Baud = 9600
+  
+7. Dikarenakan saya menggunakan opsel xl, maka hasil konfigurasi akan terlihat seperti ini, dan silahkan edit sesuai username dan password dari masing-masing opsel.
+
+8. Sekarang saatnya menghubungkan ke internet dengan cara.
+
+   # wvdial
+   
+ 9. Mohon untuk menunggu sekitar beberapa detik, saya mungkin membutuhkan waktu sekitar 30-40 detik.
+ 
+ 10. Jika ingin cek modem sudah terkoneksi ke internet atau belum, silahkan ping.
+ 
+   # ping host
+   
+ 11. Jika ping menunjukkan besar paket yang kamu terima dari target host, selamat modem telah terkoneksi.
+ 
+ So, kita mempunyai satu permasalahan yakni, bagaimana cara ke command baru, jika sudah digunakan oleh wvdial untuk tkan kasih tahu triknya di tutorial lanjutan.
