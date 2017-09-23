@@ -43,4 +43,4 @@ Rata-rata tutorial di internet hanya membahas memakai wifi, nah sekarang saya ak
    
  11. Jika ping menunjukkan besar paket yang kamu terima dari target host, selamat modem telah terkoneksi.
  
- So, kita mempunyai satu permasalahan yakni, bagaimana cara ke command baru, jika sudah digunakan oleh wvdial untuk tkan kasih tahu triknya di tutorial lanjutan.
+ So, kita mempunyai satu permasalahan yakni, bagaimana cara ke command baru, jika sudah digunakan oleh wvdial untuk trik ini akan saya post di tutorial selanjutnya.
