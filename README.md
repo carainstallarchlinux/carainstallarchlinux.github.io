@@ -1,30 +1,22 @@
 # Cara Install Arch Linux [![Build Status](https://camo.githubusercontent.com/f744ca9430339a123815b998fbf56e78a0582361/68747470733a2f2f7472617669732d63692e6f72672f626974636f696e2d636f72652f626974636f696e636f72652e6f72672e737667)](http://carainstallarchlinux.github.io)
 Panduan instalasi arch linux dengan mudah dan lengkap untuk pemula.
 
-**Deskripsi**
+**Description**
 
-Bagi yang masih menggunakan distro linux yang menurut saya dimudahkan dalam proses instalasi seperti linux mint, ubuntu, fedora, dsb. Nah bagi yang ingin mencoba menggunakan distro linux yang customizable atau dalam arti distro linux yang masih
-dari dasar dan butuh konfigurasi dari anda sendiri agar bisa digunakan maka anda bisa memakai arch linux, namun penginstalan
-arch linux tidak semudah penginstalan distro linux yang rata-rata menggunakan gui dan tidak membutuhkan akses internet, dalam
-penginstalan arch linux membutuhkan skill di bidang bash shell dan membutuhkan koneksi internet untuk mengunduh beberapa
-paket dasar untuk arch linux, namun benar-benar belum bisa digunakan karena belum memiliki gui dan belum menambahkna user dan
-driver-driver pun harus dikonfigurasi secara manual dan install secara manual, maka saya membuat panduan ini dalam arti
-ingin sekali memudahkan anda yang bingung dalam menginstall arch linux.
+Saya sengaja membuat repo ini dengan tujuan untuk membantu Anda dalam mempelajari dan mempraktekkan tentang instalasi Arch Linux, dikarenakan arch linux adalah distro linux yang customizable yang disertai dengan kemudahaannya dalam memilih sendiri paket-paket aplikasi yang akan digunakan maka perlu sekali pemahaman tentang sheel di linux, tapi anda jangan khawatir di dalam repository ini sudah saya sediakan arch anywhere atau anarchy linux yang sudah saya fork atau anda bisa mengunjungi website resminya, namun menurut saya cara manual adalah cara yng paling cocok untuk digunakan dan cara ini bisa membuat Anda mengetahui tentang penginstalan linux secara manual tanpa GUI dan sudah mengerti sedikit tentang macam-macam command di linux. Arch linux dengan mottonya k.i.s.s (keep it simple stupid) maka saya menyimpulkan WELCOME TO THE JUNGLE.
 
-**Ambil Bagian**
+**Contribute**
 
-Bagi yang ingin sekali berkontribusi agar situs ini dapat berjalan dengan baik silahkan request ke saya dan sebelumnya anda
-disyaratkan untuk pull request ke dalam repository ini dan mengoreksi apa yang salah dalam file yang saya buat ke dalam repository ini sebelumnya.
+Project ini masih dalam tahap perkembangan dan belum sepenuhnya sempurna, maka jika Anda tertarik untuk berkontribusi untuk kemajuan project ini silahkan pull request.
 
-**Referensi**
+**Resource**
 
-Sumber yang saya dapat dari sini adalah dari website arch linux mulai dari forum dan wiki yang kemudian saya rangkum sesuai
-dengan kurikulum yang akan saya buat.
+ [www.archlinux.org](Arch Linux Website).
 
 **For Your Information**
 
 Language (Indonesian).
 
-**Lisensi**
+**License**
 
 The code is open source and available under the [Mozilla Public License](LICENSE.md).
