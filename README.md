@@ -11,7 +11,7 @@ Project ini masih dalam tahap perkembangan dan belum sepenuhnya sempurna, maka j
 
 **Resource**
 
- [www.archlinux.org](Arch Linux Website).
+ [Arch Linux Website](http://www.archlinux.org).
 
 **For Your Information**
 
